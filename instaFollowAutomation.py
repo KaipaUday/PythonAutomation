@@ -5,7 +5,7 @@ import time
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://www.instagram.com/')
 username="uday.zzz"
-pwd="Uday1024"
+pwd="XXXX"
 time.sleep(3)
 driver.maximize_window()#fullscreen_window()
 text_area = driver.find_element_by_xpath('//*[@id="react-root"]/section/main/article/div[2]/div[1]/div/form/div[2]/div/label/input')
